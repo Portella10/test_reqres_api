@@ -5,6 +5,7 @@ describe("Get Request", () => {
     cy.request({
       method: "GET",
       url: "https://reqres.in/api/users?page=2",
+      failOnStatusCode: true,
       header: ["x-api-key: reqres-free-v1"],
     }).then((response) => {
       expect(response.status).to.equal(200);
