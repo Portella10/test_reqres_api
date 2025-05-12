@@ -36,5 +36,3 @@ package.json
 
 <hr />
 
-<p><strong>Autor:</strong> [Seu Nome]</p>
-<p><strong>Licença:</strong> MIT</p>
